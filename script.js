@@ -55,16 +55,16 @@ function schedule () {
     else if (day==2) {
         document.getElementById("tue").style.display="flex";
     }
-    else if (day==2) {
+    else if (day==3) {
         document.getElementById("wed").style.display="flex";
     }
-    else if (day==3) {
+    else if (day==4) {
         document.getElementById("thurs").style.display="flex";
     }
-    else if (day==4) {
+    else if (day==5) {
         document.getElementById("fri").style.display="flex";
     }
-    else if (day==5) {
+    else if (day==6) {
         document.getElementById("sat").style.display="flex";
     }
     else{
