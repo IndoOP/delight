@@ -42,5 +42,3 @@ const test = () => {
         document.getElementById('e404').innerHTML = "No tests available...";
     }
 }
-
-setInterval(test(), 1000);
