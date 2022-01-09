@@ -25,3 +25,22 @@ function search_con () {
         }
 }
 }
+
+let d = new Date();
+let m = d.getMonth();
+let dy = d.getDate();
+let hr = d.getHours();
+
+const test = () => {
+    console.log(m + dy + hr);
+    if (m>=0 && d>=9 && hr>=12){
+        console.log("Done");
+        document.getElementById('matterT').style.display="block";
+    }
+    else{
+        console.log("hey");
+        document.getElementById('e404').innerHTML = "No tests available...";
+    }
+}
+
+setInterval(test(), 1000);
