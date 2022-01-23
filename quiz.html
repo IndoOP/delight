@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes | Delight</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="schedule()">
+    <div id="loadScreen">
+        <span class="initial">Delight</span>
+    </div>
+    <header>
+        <div class="topnav" id="topnav">
+            <a href="quiz.html" class="nav-item active"><i class="fa fa-question-circle"></i> Quiz</a>
+            <a href="index.html" class="nav-item"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="tests.html" class="nav-item"><i class="fa fa-sticky-note"></i> Tests</a>
+            <a href="content.html" class="nav-item"><i class="fa fa-list"></i> Content</a>
+            <a href="#" class="nav-item"><i class="fa fa-user"></i> Account</a>
+            <a href="javascript:void(0)" class="icon" onclick="navopen()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="bg">
+        <div class="content">
+            <h1>Quizzes</h1>
+            <hr width="100px">
+            <h4 id="mnDesc">This page contains all the quiz available!</h4>
+        </div>
+    </div>
+    <ul class="context" style="list-style: none;">
+        <li class="card" style="text-align: center;" onclick="window.open('mustKnowGK.html')">
+            <h1><i class="fa fa-list"></i> General Knowledge</h1>
+            <h3>Must Know Questions</h4>
+            <h6 style="line-height: 16px;">Quiz <br>Questions :- 10 <br> Marks :- 10</h6>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
