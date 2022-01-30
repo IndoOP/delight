@@ -36,7 +36,7 @@ let day = d.getDay();
 const test = () => {
     let subject = document.getElementById("mumbaiT");
     let dTest = document.getElementById("test");
-    subject.style.display="none";
+    subject.style.display="block";
     console.log(m + dy + hr);
     if (m>=0 && d>=16 && hr>=19){
         subject.style.display="block";
