@@ -349,6 +349,19 @@ ul{
     text-align: center;
     font-weight: 1000;
 }
+/*.q-list{
+    display: none;
+}*/
+.results .wrAns, .results .rtAns{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 10px;
+    background-color: rgb(201, 0, 0);
+}
+.results .rtAns{
+    background-color: #00b100;
+}
 .pie{
     display: block;
     margin-left: auto;
@@ -357,4 +370,7 @@ ul{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+}
+#captionR{
+    padding: 20px;
 }
