@@ -45,10 +45,6 @@ const test = () => {
     else if (dTest.style.display == "block" && subject.style.display == "none"){
         document.getElementById('e404').innerHTML = "Next Test at 7:00 PM";
     }
-    else{
-        console.log("hey");
-        document.getElementById('e404').innerHTML = "No tests available...";
-    }
     schedule();
 }
 
